@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@android:id/text1"
+    android:clickable="true"
+    android:focusable="true"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="15dp"
+    android:backgroundTint="@color/primaryTextColor"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:orientation="vertical"
+        android:background="@android:color/white"
+        android:layout_marginBottom="5dp"
+        tools:ignore="UselessLeaf">
+
+        <TextView
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"
+            android:text="&#8942;"
+            android:textSize="20sp"
+            android:layout_marginTop="-07dp"
+            android:layout_marginRight="-07dp"
+            android:id="@+id/txtOption"
+            android:clickable="true"
+            android:layout_gravity="right"
+            android:textColor="@color/black"
+            android:textAlignment="center"
+            tools:ignore="HardcodedText,RtlCompat,RtlHardcoded" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Incidente"
+            android:id="@+id/IncidentName"
+            android:textSize="18dp"
+            android:textColor="#000"
+            android:layout_marginTop="-20dp"
+            android:textStyle="bold"
+            tools:ignore="HardcodedText,SpUsage" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Incidente ID:"
+            android:textColor="#000"
+            android:id="@+id/IncidentsId"
+            tools:ignore="HardcodedText" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Tipo de Incidente: "
+            android:textColor="#000"
+            android:id="@+id/IncidentType"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:id="@+id/DateIncidents"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Fecha de Ingreso:"
+            android:textColor="#000"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Usuario:"
+            android:textColor="#000"
+            android:id="@+id/IncidentUsuario"
+            tools:ignore="HardcodedText" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Estado: "
+            android:textColor="#000"
+            android:id="@+id/IncidentEstado"
+            tools:ignore="HardcodedText" />
+
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

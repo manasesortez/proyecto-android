@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@android:id/text1"
+    android:clickable="true"
+    android:focusable="true"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="15dp"
+    android:backgroundTint="@color/primaryTextColor"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:orientation="vertical"
+        android:background="@android:color/white"
+        android:layout_marginBottom="5dp"
+        tools:ignore="UselessLeaf">
+
+        <TextView
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"
+            android:text="&#8942;"
+            android:textSize="20sp"
+            android:layout_marginTop="-07dp"
+            android:layout_marginRight="-07dp"
+            android:id="@+id/txtOption2"
+            android:clickable="true"
+            android:layout_gravity="right"
+            android:textColor="@color/black"
+            android:textAlignment="center"
+            tools:ignore="HardcodedText,RtlCompat,RtlHardcoded" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Usuario"
+            android:id="@+id/UserName"
+            android:textSize="18dp"
+            android:layout_marginTop="-20dp"
+            android:textColor="#000"
+            android:textStyle="bold"
+            tools:ignore="HardcodedText,SpUsage" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Usuario ID:"
+            android:textColor="#000"
+            android:id="@+id/UserId"
+            tools:ignore="HardcodedText" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="E-mail:"
+            android:textColor="#000"
+            android:id="@+id/UserCorreo"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Tipo de Usuario:"
+            android:textColor="#000"
+            android:id="@+id/UserType"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Estado:"
+            android:textColor="#000"
+            android:id="@+id/UserEstado"
+            tools:ignore="HardcodedText" />
+
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
